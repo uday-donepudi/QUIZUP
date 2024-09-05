@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".QuestionActivity">
+
+    <EditText
+        android:id="@+id/questionTitle"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Question"
+        android:background="@drawable/edittext_rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/choice1"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Choice 1"
+        android:background="@drawable/edittext_rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/choice2"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Choice 2"
+        android:background="@drawable/edittext_rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/choice3"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Choice 3"
+        android:background="@drawable/edittext_rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/choice4"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:hint="Choice 4"
+        android:background="@drawable/edittext_rounded_corner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="8dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioG"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radio1"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RadioGroup>
+
+    <CheckBox
+        android:id="@+id/showCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/uploadQ"
+        style="@style/ButtonStyle"
+        android:text="Upload Question"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

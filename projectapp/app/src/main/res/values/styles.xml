@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomCardStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">#F8F8F8</item>
+    </style>
+
+    <style name="EditTextStyle" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="android:backgroundTint">#E8E8E8</item>
+        <item name="android:textColorHint">#888888</item>
+    </style>
+
+    <style name="TextViewStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#031680</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="TextViewLinkStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">#1A39E4</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:backgroundTint">#1A39E4</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+</resources>
+
